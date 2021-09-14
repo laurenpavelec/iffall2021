@@ -1,0 +1,28 @@
+p {
+    color: white;
+    font-size: 20px;
+}
+
+body {
+    background-color: rgb(60,180,180);
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    color: pink;
+}
+
+.harry {
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    color: orange;
+}
+
+.cmoon {
+    text-indent: 40px;
+    font-weight: bold;
+    color: pink;
+}
