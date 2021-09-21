@@ -1,0 +1,29 @@
+body {
+    background-color: antiquewhite;
+}
+
+p {
+    font-size: 15pt;
+    color: grey;
+    text-indent: 30pt;
+}
+
+h1 {
+    font-size: 50pt;
+    font-style: bold;
+    color: brown;
+    font-family: helvetica, sans-serif;
+}
+
+h2 {
+    font-size: 30;
+    font-style: bold;
+    color: teal;
+    font-family: helvetica, sans-serif;
+}
+
+img {
+    height: 300px;
+    width: auto;
+    img-indent: 30pt;
+}
