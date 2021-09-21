@@ -1,0 +1,75 @@
+html {
+    font-family: font-family: 'Ubuntu', sans-serif;
+    Font-size: 30pts;
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+    Font-weight: bold;
+    Font-size: 70pts;
+    color: red;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h3 {
+    font-size: 15pt;
+    color: pink;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.weight300 {
+    font-weight: 300;
+}
+
+.weight400 {
+    font-weight: 400;
+}
+
+.weight700 {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.rem {
+    letter-spacing: 3rem;
+}
+
+.px {
+    letter-spacing: -.7px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.linethrough {
+    text-decoration: line-through;
+}
+
+.overline {
+    text-decoration: over-line;
+}
