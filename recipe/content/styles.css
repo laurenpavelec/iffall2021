@@ -1,24 +1,25 @@
 body {
-    background-color: antiquewhite;
+    background-color: saddlebrown;
 }
 
 p {
     font-size: 15pt;
-    color: grey;
+    color:antiquewhite;
     text-indent: 30pt;
 }
 
 h1 {
     font-size: 50pt;
     font-style: bold;
-    color: brown;
+    text-align: center;
+    color:indianred;
     font-family: helvetica, sans-serif;
 }
 
 h2 {
     font-size: 30;
     font-style: bold;
-    color: teal;
+    color:indianred;
     font-family: helvetica, sans-serif;
 }
 
