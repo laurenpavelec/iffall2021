@@ -1,0 +1,29 @@
+body {
+    background-color: saddlebrown;
+}
+
+p {
+    font-size: 15pt;
+    color:antiquewhite;
+    text-indent: 30pt;
+}
+
+h1 {
+    font-size: 50pt;
+    font-style: bold;
+    text-align: center;
+    color:indianred;
+    font-family: helvetica, sans-serif;
+}
+
+h2 {
+    font-size: 30;
+    font-style: bold;
+    color:indianred;
+    font-family: helvetica, sans-serif;
+}
+
+img {
+    height: 300px;
+    width: auto;
+}
