@@ -1,0 +1,110 @@
+body {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+}
+
+.content {
+    width: 960px;
+    margin: auto;
+    color: white;
+}
+
+header {
+    text-align: center;
+    background-image: url(/Users/laurenpavelec/Documents/iffall2021/publish/multi-panel-page/images/headerimage.jpeg);
+}
+
+header .content {
+    padding: 152px 0 157px 0;
+}
+
+header h1 {
+    font-size: 80px;
+}
+
+header h2 {
+    font-size: 30px;
+    margin-top: -3px;
+}
+
+.section2 {
+    background-color:rgb(148, 82, 148);
+}
+
+section .content {
+    padding: 42px 0 38px 0;
+}
+
+section h1 {
+    font-size: 40px;
+    margin-bottom: 32px;
+}
+
+.image1 {
+    width: 400;
+    height: 300;
+    float: right;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 18px;
+}
+
+.section3 {
+    padding: 0 0 -25px 0;
+    background-color: cadetblue;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+}
+
+ul li {
+    display: flex;
+    margin-bottom: 24px;
+}
+
+h4{
+    font-size: 22px;
+    margin-bottom: -12px;
+    margin-top: -3px;
+
+}
+
+ul > li > div {
+    margin-left: 11px;
+    margin-right: 25px;
+}
+
+li img {
+    width: 200px;
+    height: 150px;
+}
+
+.section4 {
+    margin-top: -20px;
+    margin-bottom: 110px;
+    background-color:rgb(148, 82, 148);
+}
+
+.section4content {
+    font-size: 26px;
+    margin: 0 125px 0 125px;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.footer {
+    margin-left: 0px;
+    margin-top: -72px;
+    font-size: 18px;
+    background-color: dimgray;
+}

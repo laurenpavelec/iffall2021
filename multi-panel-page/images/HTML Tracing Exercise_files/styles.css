@@ -1,0 +1,85 @@
+body {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+}
+
+.content {
+    width: 960px;
+    background-color: rgba(0,0,255,.3);
+    margin: auto;
+}
+
+header {
+    background-color: rgba(255,0,0,.3);
+    text-align: center;
+}
+
+header .content {
+    padding: 152px 0 157px 0;
+}
+
+header h1 {
+    font-size: 80px;
+}
+
+header h2 {
+    font-size: 30px;
+    margin-top: -3px;
+}
+
+section .content {
+    padding: 42px 0 38px 0;
+}
+
+section h1 {
+    font-size: 40px;
+    margin-bottom: 32px;
+}
+
+.image1 {
+    width: 400;
+    height: 300;
+    float: right;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 18px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+}
+
+ul li {
+    display: flex;
+    margin-bottom: 24px;
+}
+
+h4{
+    font-size: 22px;
+    margin-bottom: -12px;
+    margin-top: -3px;
+
+}
+
+ul > li > div {
+    margin-left: 11px;
+    margin-right: 25px;
+}
+
+li img {
+    width: 200px;
+    height: 150px;
+}
+
+.section4 {
+    padding: 0 5px 0 5px;
+}
