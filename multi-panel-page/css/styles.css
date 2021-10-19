@@ -15,7 +15,7 @@ h1 {
 
 header {
     text-align: center;
-    background-image: url(/Users/laurenpavelec/Documents/iffall2021/publish/multi-panel-page/images/headerimage.jpeg);
+    background-image: url(../images/headerimage.jpeg);
 }
 
 header .content {
