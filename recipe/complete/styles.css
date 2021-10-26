@@ -1,0 +1,81 @@
+body {
+    font-family: 'Playfair Display', serif;
+    color: tan;
+    background-color: rgb(49, 23, 4);
+    width: 960px;
+    max-width: 90%;
+    margin: auto;
+}
+
+.content {
+    /* width: 960px; */
+    /* padding: 30px 100px 30px 100px; */
+    box-align: center;
+}
+
+h1 {
+    font-size: 80px;
+    color:tan;
+    text-align: center;
+    border-bottom: 1px solid tan;
+    padding-bottom: 5px;
+}
+
+h2 {
+    text-align: center;
+    padding: 0 0 25px 0;
+}
+
+h3 {
+    font-size: 50px;
+    padding-top: 20px;
+    margin: 0;
+}
+
+
+h5 {
+    font-size: 30px;
+}
+
+#cook-time-ingredients ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0px;
+    list-style-type: none;
+    background-color: rgb(78, 41, 14);
+    /* margin: 20px 160px 20px 0px; */
+}
+
+#cook-time-ingredients ul li {
+    padding: 0 40px 0 40px;
+    font-size: 0.8rem;
+    /* width: 50%;
+    box-sizing: border-box; */
+}
+
+#cook-time-ingredients ul li:first-child {
+    border-right: 1px solid tan;
+}
+
+.image1 {
+    width: 250px;
+}
+
+.image2 {
+    width: 100%;
+    margin-bottom: 15px;
+} 
+
+.instructions {
+    background-color: rgb(78, 41, 14);
+    padding: 0 40px 20px 40px;
+    margin-bottom: 50px;
+}
+
+@media (min-width:600px) {
+    #cook-time-ingredients ul li {width:50%; box-sizing:border-box}
+}
+
+@media (max-width:600px) {
+    #cook-time-ingredients ul li:first-child {border-bottom:1px solid tan; border-right:0}
+}
