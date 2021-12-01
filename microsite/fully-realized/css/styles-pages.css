@@ -1,0 +1,71 @@
+h1 {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#3a7884+4,653170+23,bc3c20+44,a80077+60,5b2db7+90 */
+    background: -moz-linear-gradient(-45deg, #3a7884 4%, #653170 23%, #bc3c20 44%, #a80077 60%, #5b2db7 90%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #3a7884 4%,#653170 23%,#bc3c20 44%,#a80077 60%,#5b2db7 90%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #3a7884 4%,#653170 23%,#bc3c20 44%,#a80077 60%,#5b2db7 90%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a7884', endColorstr='#5b2db7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#h1:hover {
+    color: rgb(65, 19, 170);
+    transform: scale(1.2);
+    transition: color 3s, transform 3s;
+}
+
+
+
+#development {
+    font-size: 89px;
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#3a7884+4,653170+23,bc3c20+44,a80077+60,5b2db7+90 */
+        background: -moz-linear-gradient(-45deg, #3a7884 4%, #653170 23%, #bc3c20 44%, #a80077 60%, #5b2db7 90%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(-45deg, #3a7884 4%,#653170 23%,#bc3c20 44%,#a80077 60%,#5b2db7 90%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(135deg, #3a7884 4%,#653170 23%,#bc3c20 44%,#a80077 60%,#5b2db7 90%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a7884', endColorstr='#5b2db7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
+@media (max-width:640px) { #development {
+    font-size: 60px;
+}}
+
+#development:hover {
+        color: rgb(65, 19, 170);
+        transform: scale(1.2);
+        transition: color 3s, transform 3s;
+}
+
+img:hover {
+    transform: scale(1.05);
+    transition: transform .5s;
+}
+
+/* 
+fix media below? */
+@media (max-width: 640px) { img {
+    content: center; }
+}
+
+@media (max-width: 640px) { html {
+    margin: 0;
+    padding: 0;
+}}
+
+figure {
+    text-align: right;
+    margin: 1em 0;
+}
+
+figure img {
+    max-width: 100%;
+    width: 400px;
+}
+
+#expansions img {
+    width: 200px;
+    max-width: 100%;
+    text-align: right;
+    margin: 1em 0;
+}
