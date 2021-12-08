@@ -1,0 +1,61 @@
+body {
+    background-image: url(../images/background.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+}
+
+img {
+    /* height: 300px; */
+    /* padding: 0 0 0 200px; */
+}
+
+#pic-home {
+    transition: all 0s ease 500s; 
+    visibility: visible;
+}
+
+#pic-home:hover {
+    transition: transform 5s, opacity 3s;
+    transform:scale(3);
+    opacity: 10%;
+    transition-delay: 0s;
+    visibility: visible;
+}
+
+#pic-home2 {
+    /* margin-top: -290px;
+    margin-left: -115px; */
+    padding: 0;
+    transition: all 0s ease 500s; 
+    visibility: visible;
+}
+
+#pic-home2:hover {
+    opacity: 10%;
+    transition: opacity 3s, transform 5s;
+    transform:scale(3);
+    transition-delay: 0s;
+    visibility: visible; 
+}
+
+img {
+    /* height: 300px; */
+    /* padding: 0 0 0 220px; */
+    opacity: 70%;
+    width: 50%;
+}
+
+h1 {
+    transition: all 0s ease 500s; 
+    visibility: visible;
+}
+
+h1:hover {
+    transition-delay: 0s;
+    visibility: visible;
+}
+
+.battle {
+    display: flex;
+}
